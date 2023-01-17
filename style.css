@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.loading-screen {
+  display: flex;
+  background: #414141;
+  color: #fff;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+.loading-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+.loading-section .container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#loader {
+  margin: 0 5px;
+}
+button {
+  padding: 10px 1rem;
+  font-size: 1rem;
+  border: 2px solid #fff;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  align-self: center;
+}
+.parent {
+  background: #000;
+  width: 500px;
+  height: 10px;
+  position: relative;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.child {
+  position: absolute;
+  height: 100%;
+  background: yellow;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+/* welcome screen */
+.welcome-screen {
+  display: block;
+  position: absolute;
+}
+.title {
+  font-size: 4rem;
+  text-transform: capitalize;
+}
+.title2 {
+  padding-left: 100px;
+}
